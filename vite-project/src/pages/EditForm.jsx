@@ -47,6 +47,14 @@ export default function EditForm(){
                 <input onChange={handleChangeNumber} type="number" name="hp"/><br/>
                 <label>Evasion: </label>
                 <input onChange={handleChangeNumber} type="number" name="evasion"/><br/>
+                <label>Trait Name: </label>
+                <input onChange={handleChangeText} type="text" name="traitName"/><br/>
+                <label>Trait Description: </label>
+                <input onChange={handleChangeText} type="text" name="traitDesc"/><br/>
+                <label>Core Power Name: </label>
+                <input onChange={handleChangeText} type="text" name="cpName"/><br/>
+                <label>Core Power Description: </label>
+                <input onChange={handleChangeText} type="text" name="cpDesc"/><br/>
                 <input type="submit" value="Update"/>
             </form>
             <form onSubmit={handleDelete}>

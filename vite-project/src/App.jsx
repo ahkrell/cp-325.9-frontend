@@ -9,7 +9,7 @@ function App() {
   return (
     <main>
       <nav>
-        <Link to={'/'}>Home</Link> | <Link to={'/create'}>Add Mech</Link> | <Link to={'/update'}>Edit Mech</Link>
+        <Link to={'/'}>Home</Link> | <Link to={'/create'}>Add Mechs</Link> | <Link to={'/update'}>Edit Mechs</Link>
       </nav>
       <Routes>
         <Route path='/' element={<HomePage />} />
